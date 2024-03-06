@@ -14,6 +14,7 @@ This is a the Landing page of horisen and we have been "hired" to complete featu
 - Organize the CSS file to the semantic structure.
 - Fix the DRY code.
 - Comment in the CSS file.
+- changed the title to horiseon
 
 ## Screen shot
 
