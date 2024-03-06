@@ -46,10 +46,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -59,8 +55,15 @@ p {
     background-position: center;
 }
 
+/* Moved this here because there is no p tags above here but below and this affects all the p tags so I left it here*/
+p {
+    font-size: 16px;
+}
+
+
 /* moved content here because its the parent of the class .float left and right */
 /* DIV(container) class content */
+
 .content {
     width: 75%;
     display: inline-block;
@@ -105,7 +108,7 @@ p {
 }
 
 
-/* DIV class benefits */
+/* DIV(container) class benefits */
 
 .benefits {
     margin-right: 20px;
@@ -118,23 +121,14 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* DRY: FIXED */
-
 .benefit-lead h3, 
 .benefit-brand h3, 
 .benefit-cost h3 {
@@ -143,7 +137,6 @@ p {
 }
 
 /* DRY: FIXED */
-
 .benefit-lead img,
 .benefit-brand img, 
 .benefit-cost img  {
@@ -152,7 +145,7 @@ p {
     max-width: 150px;
 }
 
-
+/* DIV footer */
 .footer {
     padding: 30px;
     clear: both;
