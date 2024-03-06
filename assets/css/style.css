@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,6 +47,7 @@ a {
     text-decoration: none;
 }
 
+/* This is the landing page photo under the header */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,7 +72,7 @@ p {
     margin-left: 20px;
 }
 
-/* DRY: FIXED */
+/* DRY: FIXED and edit the content style*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -82,24 +84,26 @@ p {
     color: #ffffff;
 }
 
-/* DRY: FIXED */
+/* DRY: FIXED and size of img*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*img will be on left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*img will be on right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* DRY: FIXED */
+/* DRY: FIXED  and adding margin on the bottom and font size*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -108,7 +112,7 @@ p {
 }
 
 
-/* DIV(container) class benefits */
+/* DIV(container) benefits */
 
 .benefits {
     margin-right: 20px;
@@ -145,7 +149,7 @@ p {
     max-width: 150px;
 }
 
-/* DIV footer */
+/* DIV(container) footer */
 .footer {
     padding: 30px;
     clear: both;
